@@ -1,0 +1,95 @@
+body {
+    background-color: #0a0f1a;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.produk-section {
+    padding: 60px 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.produk-section h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+.produk-section h2 span {
+    color: #ccc;
+}
+
+.produk-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.produk-gambar img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.produk-deskripsi {
+    max-width: 400px;
+}
+
+.label-viral {
+    background-color: #888;
+    color: white;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.produk-deskripsi h3 {
+    font-size: 1.6em;
+    margin: 10px 0;
+}
+
+.deskripsi-kecil {
+    font-size: 0.95em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.produk-deskripsi h4 {
+    font-size: 1.5em;
+    margin: 10px 0 0;
+}
+
+.catatan {
+    color: #bbb;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.tombol {
+    display: flex;
+    gap: 15px;
+}
+
+.btn-beli {
+    background-color: #1ecd6d;
+    padding: 12px 30px;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-nganjuk {
+    background-color: #8b3f1c;
+    padding: 12px 30px;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
